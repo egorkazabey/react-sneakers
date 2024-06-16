@@ -1,4 +1,5 @@
 import Header from '../header/Header'
+import SideBar from '../side-bar/SideBar.jsx'
 import Slider from '../slider/Slider'
 import Sneakers from '../sneakers/Sneakers'
 
@@ -11,6 +12,7 @@ function App() {
         <Header />
         <Slider />  
         <Sneakers />
+        <SideBar/>
     </div>
   )
 }
